@@ -1,8 +1,8 @@
 from flask import Flask, jsonify
 from tradingview_ta import TA_Handler, Interval
 
-
 app = Flask(__name__)
+
 
 # Interval.INTERVAL_1_WEEK
 
